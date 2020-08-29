@@ -4,3 +4,4 @@
 
 - [DotEnv](https://www.npmjs.com/package/dotenv)
 - [Sequelize](https://sequelize.org/)
+- [Nodemon](https://nodemon.io/)
