@@ -9,6 +9,8 @@ router.post('/', (req, res) => {
   if (!isBase64(image, { mimeRequired: true })) {
     return res.status(400).json({ status: 'error', message: 'invalid base64' });
   }
+
+  return res.send('OK');
 });
 
 module.exports = router;
